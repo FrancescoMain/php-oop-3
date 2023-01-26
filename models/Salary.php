@@ -6,9 +6,9 @@ class Salary {
     private $hasFourteenth;
 
     public function __construct($monthly, $hasThirteenth, $hasFourteenth) {
-        $this->monthly = $monthly;
-        $this->hasThirteenth = $hasThirteenth;
-        $this->hasFourteenth = $hasFourteenth;
+        $this->setMonthly($monthly);
+        $this->setHasThirteenth($hasThirteenth);
+        $this->setHasFourteenth($hasFourteenth);
     }
 
     public function getMonthly() {
